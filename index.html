@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Bradey's Place of Swag</title>
+        <title>Bradey's Website</title>
+        
           <style>
             body {
-                background: rgb(125, 198, 205);
+                background: rgb(0, 97, 255);
                 color: rgb(45, 45, 45);
                 padding: 10px;
                 font-family: arial;
@@ -20,12 +21,11 @@
 
             /* navigation menu */
             nav {
-                background: rgb(174, 18, 188);
+                background: rgb(115, 14, 132);
                 margin: 0 auto;
                 margin bottom: 20px;
                 display: flex;
                 padding: 10px;
-                border: 2px solid;
                 border-radius: 25px;
             }
             nav header {
@@ -47,9 +47,11 @@
             }
 
             /* main container area beneath menu */
-            main {
+            [class=container] {
                 background: rgb(245, 238, 219);
                 display: flex;
+                border-radius: 25px;
+                align-items: center;
             }
             [class=sidebar] {
                 margin-right: 25px;
@@ -57,6 +59,8 @@
             }
             [class=sidebar] img {
                 width: 200px;
+                border: 3px solid;
+                border-radius: 25px;
             }
             [class=content] {
                 flex: 1;
@@ -71,30 +75,30 @@
     <body>
         <div id="all-contents"> 
             <nav>
-                <header>Bradey's Place of Swag</header>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="portfolio.html">Portfolio</a></li>
                 </ul>
             </nav>
-
-            <main>
-                 <div class="sidebar">
-                     <img src="https://assets.vg247.com/current//2015/09/Destiny_20150915140922.jpg">
+            
+            <div class="container">
+                <div class="sidebar">
+                    <img src="https://photos-3.dropbox.com/t/2/AABjp_dIpkZzMt9uZIBNNjgWbMRwl4WhVn9Qum67nDfVQA/12/507148738/jpeg/32x32/1/_/1/2/Photo%20Apr%2023%2C%208%2005%2001%20PM.jpg/ELzk3I0EGBwgAigC/BGTIRgDCNzOjyVONii_V6RAnsWuNW9-bJZvW9PhZ1Y0?size=1280x960&size_mode=3">
                 </div>
-
-                <div class="content">
-                    <header>Bradey</header>
-                    <p>Student at Sci High</p>
-                    <section class="interests">
-                        <header>Interests</header>
-                        <ul>
-                            <li>Video Games</li>
-                            <li>Food</li>
-                            <li>Coding</li>
-                        </ul>
-                    </section>
+           
+                <div class="about me">
+                    <header>Bradey Coleman</header>
+                        <p>Student at Operation Spark</p>
+                        <section class="interests">
+                            <header>Interests</header>
+                            <ul>
+                                <li>Coding</li>
+                                <li>Acting</li>
+                                <li>Video Games</li>
+                            </ul>
+                        </section>
                 </div>
-            </main>
+            </div>
+         </div>
     </body>
 </html>
